@@ -173,6 +173,7 @@
 }
 .layout__profile-info2 {
   background: #f3f3f3;
+  overflow: hidden;
   padding: 10px 0;
 }
 .layout__profile-info2 .col-last {
@@ -218,6 +219,18 @@
 }
 .layout__address-box {
   background: #f3f3f3;
+}
+.layout .js-body:not(.d-none) .anim1 {
+  animation: backInUp;
+  animation-duration: 1s;
+}
+.layout .js-body:not(.d-none) .anim2 {
+  animation: backInUp;
+  animation-duration: 1.5s;
+}
+.layout .js-body:not(.d-none) .anim3 {
+  animation: backInUp;
+  animation-duration: 2s;
 }
 
 body {
@@ -267,7 +280,8 @@ body {
 }
 .layout__form-group {
   position: relative;
-  padding-right: 60px;
+  padding-right: 55px;
+  padding-left: 55px;
 }
 .layout__form-btn {
   background: #3e2092;

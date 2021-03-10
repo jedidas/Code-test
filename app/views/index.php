@@ -18,7 +18,7 @@
             crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
 </head>
-<body class="<?php echo $className; ?>">
+<body class="layout <?php echo $className; ?>">
 
 <main>
     <div class="layout__form-header pt-4 pb-4">
@@ -62,17 +62,17 @@
                         </div>
                         <div class="col-12 layout__profile-info2">
                             <div class="row m-0">
-                                <div class="col-6 col-sm">
+                                <div class="col-6 col-sm animate__animated anim1">
                                     <p class="icon-text text phone text-center"></p>
                                 </div>
-                                <div class="col-6 col-sm">
+                                <div class="col-6 col-sm animate__animated anim2">
                                     <p class="icon-text text address text-center">
                                         <span class="street"></span>
                                         <span class="suite"></span>
                                         <span class="city"></span>
                                     </p>
                                 </div>
-                                <div class="col-12 col-sm col-last">
+                                <div class="col-12 col-sm col-last animate__animated anim3">
                                     <p class="text-center"><a href="" class="icon-text website" target="_blank"></a></p>
                                 </div>
                             </div>

@@ -130,6 +130,7 @@
 
   &__profile-info2 {
     background: #f3f3f3;
+    overflow: hidden;
     padding: 10px 0;
 
     .col-last {
@@ -181,6 +182,23 @@
 
   &__address-box {
     background: #f3f3f3;
+  }
+
+  .js-body:not(.d-none) {
+    .anim1 {
+      animation: backInUp;
+      animation-duration: 1s;
+    }
+
+    .anim2 {
+      animation: backInUp;
+      animation-duration: 1.5s;
+    }
+
+    .anim3 {
+      animation: backInUp;
+      animation-duration: 2s;
+    }
   }
 
 }
