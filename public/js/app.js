@@ -1,4 +1,5 @@
 $(function () {
+    var render = new AppRender();
     var form = $('.js-form');
     form.submit(function (event) {
         event.preventDefault();
@@ -23,7 +24,7 @@ $(function () {
                 type: 'GET',
                 dataType: 'json',
                 success: function (response) {
-                    new AppRender(form, response);
+                    render.init(form, response);
                 },
                 error: function (xhr, status) {
                     console.log('Error');

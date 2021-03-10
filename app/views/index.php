@@ -44,7 +44,7 @@
                     <div class="loader">Loading...</div>
                 </div>
             </div>
-            <div class="col-12 js-body d-none">
+            <div class="col-12 js-body d-none animate__animated">
 
                 <div class="layout__profile-box">
                     <div class="layout__profile-header">
@@ -56,29 +56,34 @@
 
                             </div>
                         </div>
-                        <div class="col-10 col-12 col-sm-9">
+                        <div class="col-10 col-12 col-sm-9 mb-4">
                             <h2 class="title"><span class="name"></span><span class="nickname"></span></h2>
-                            <a href="" class="icon-text email"></a>
+                            <a href="" class="icon-text email text-center text-sm-left"></a>
+                        </div>
+                        <div class="col-12 layout__profile-info2">
+                            <div class="row m-0">
+                                <div class="col-6 col-sm">
+                                    <p class="icon-text text phone text-center"></p>
+                                </div>
+                                <div class="col-6 col-sm">
+                                    <p class="icon-text text address text-center">
+                                        <span class="street"></span>
+                                        <span class="suite"></span>
+                                        <span class="city"></span>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm col-last">
+                                    <p class="text-center"><a href="" class="icon-text website" target="_blank"></a></p>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="col-12 layout__profile-info">
-                            <p class="icon-text text phone"></p>
-                            <p><a href="" class="icon-text website" target="_blank"></a></p>
                             <h4>Company</h4>
                             <p class="company">
                                 <span class="icon-text company-name"></span>
                                 <span class="catchPhrase"></span>
                                 <span class="bs"></span>
-                            </p>
-                        </div>
-                        <div class="col-12 layout__profile-info">
-                            <h4>Address</h4>
-                            <p class="icon-text text address">
-                                <span class="street"></span>
-                                <span class="suite"></span>
-                            </p>
-                            <p class="text">
-                                <span class="city"></span>
-                                <span class="zipcode"></span>
                             </p>
                         </div>
                     </div>

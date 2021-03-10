@@ -4,7 +4,7 @@ class AppRender {
     input;
     data;
 
-    constructor(formNode, data) {
+    init(formNode, data) {
         this.data = data;
         this.form = $(formNode);
         this.input = this.form.find('[name="email"]');
@@ -38,7 +38,7 @@ class AppRender {
         var body = $('.js-body');
         var data = this.data['data'][0];
         body.find('.name').html(data.name);
-        body.find('.nickname').html(data.username);
+        body.find('.nickname').html('@'+data.username);
         body.find('.email').html(data.email);
         body.find('.email').attr('href', 'mailto:' + data.email);
         body.find('.phone').html(data.phone);
@@ -51,7 +51,10 @@ class AppRender {
         body.find('.suite').html(data.address.suite);
         body.find('.city').html(data.address.city);
         body.find('.zipcode').html(data.address.zipcode);
+        body.removeClass('animate__bounceInUp');
         body.removeClass('d-none');
+        body.addClass('animate__bounceInUp');
+
     }
 
 

@@ -102,11 +102,12 @@
   color: #6c6c6c;
   font-size: 12px;
   font-weight: 300;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 .layout__profile-body .website,
 .layout__profile-body .email {
   color: #3e2092;
+  display: block;
   font-size: 14px;
   font-weight: 400;
 }
@@ -115,8 +116,9 @@
   content: "";
 }
 .layout__profile-body .text {
+  align-self: center;
   color: #6c757d;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
 }
 .layout__profile-body .icon-text:before {
@@ -139,7 +141,7 @@
 }
 .layout__profile-body .company {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
 }
 .layout__profile-body .company-name {
@@ -161,13 +163,33 @@
   margin-bottom: 0;
   padding: 5px 0;
 }
-.layout__profile-info p:last-of-type {
-  border-bottom: 1px solid #e0e0e0;
-}
 .layout__profile-info h4 {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
+}
+.layout__profile-info .box {
+  background: #fff;
+}
+.layout__profile-info2 {
+  background: #f3f3f3;
+  padding: 10px 0;
+}
+.layout__profile-info2 .col-last {
+  border-top: 1px solid #e0e0e0;
+}
+@media (min-width: 576px) {
+  .layout__profile-info2 .col-last {
+    border: none;
+  }
+}
+.layout__profile-info2 p {
+  margin: 0;
+}
+.layout__profile-info2 > .row > div {
+  display: grid;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .layout__profile-avatar-box {
   height: 75px;
@@ -193,6 +215,9 @@
   background: url("https://store-images.s-microsoft.com/image/apps.23032.13608622719434797.30372fd8-b4bd-41c0-beea-1c2a61e087c1.a8347bb5-9305-48e8-b668-08df54c5a91a?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg") no-repeat 50% 50%;
   background-size: cover;
   height: 150px;
+}
+.layout__address-box {
+  background: #f3f3f3;
 }
 
 body {
