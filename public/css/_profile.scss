@@ -1,0 +1,157 @@
+.layout {
+
+  &__profile-box {
+    border-radius: 20px;
+    box-shadow: 0 0 4px -2px #000;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+  }
+
+  &__profile-body {
+    position: relative;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    .title {
+      margin-bottom: 0;
+      text-align: center;
+      @media (min-width: 576px) {
+        text-align: left;
+      }
+    }
+
+    .name {
+      color: #3e2092;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .nickname {
+      color: #6c6c6c;
+      font-size: 12px;
+      font-weight: 300;
+      padding-left: 10px;
+    }
+
+    .website,
+    .email {
+      color: #3e2092;
+      font-size: 14px;
+      font-weight: 400;
+
+      &:before {
+        content: "\f32c";
+      }
+    }
+
+    .text {
+      color: #6c757d;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .icon-text {
+      &:before {
+        display: inline-block;
+        font-family: bootstrap-icons !important;
+        font-style: normal;
+        font-weight: normal !important;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        padding-right: 5px;
+        vertical-align: -.125em;
+        -webkit-font-smoothing: antialiased;
+      }
+    }
+
+    .phone {
+      &:before {
+        content: "\f4e2";
+      }
+    }
+
+    .address {
+      &:before {
+        content: "\f47e";
+      }
+    }
+
+    .company {
+      color: #6c757d;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .company-name {
+      display: block;
+      font-weight: 600;
+
+      &:before {
+        content: "\f192";
+      }
+    }
+
+    .website {
+      &:before {
+        content: "\f3d4";
+      }
+    }
+
+  }
+
+  &__profile-info {
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+    p {
+      border-top: 1px solid #e0e0e0;
+      margin-bottom: 0;
+      padding: 5px 0;
+
+      &:last-of-type {
+        border-bottom: 1px solid #e0e0e0;
+      }
+    }
+
+    h4 {
+      color: #6c757d;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+  }
+
+  &__profile-avatar-box {
+    height: 75px;
+  }
+
+  &__profile-avatar {
+    border: 3px solid #ccc;
+    background: url(https://image.flaticon.com/icons/png/512/16/16363.png) no-repeat 50% 50% #fff;
+    background-size: 60% auto;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    top: -70%;
+    width: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+  &__profile-header {
+    background: url("https://store-images.s-microsoft.com/image/apps.23032.13608622719434797.30372fd8-b4bd-41c0-beea-1c2a61e087c1.a8347bb5-9305-48e8-b668-08df54c5a91a?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg") no-repeat 50% 50%;
+    background-size: cover;
+    height: 150px;
+  }
+}

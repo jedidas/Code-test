@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d473877-6144-42ee-a773-881f1fd3d1e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1pX5jgt4t0aQfC4osvl0LO24efU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\code-test\public\css" />
+      <recent name="C:\laragon\www\code-test\app\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\code-test\public\css" />
+      <recent name="C:\laragon\www\code-test\app" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d473877-6144-42ee-a773-881f1fd3d1e4" name="Default Changelist" comment="" />
+      <created>1615316730442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615316730442</updated>
+      <workItem from="1615316731744" duration="21484000" />
+      <workItem from="1615384641045" duration="16890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615385388447">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615385388447" />
+    <state x="548" y="119" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1615336818421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="119" key="#com.intellij.ide.macro.MacrosDialog/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615336818421" />
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615339188296">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615339188296" />
+    <state x="545" y="326" key="ComposerInitDialogKey" timestamp="1615316889814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="326" key="ComposerInitDialogKey/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615316889814" />
+    <state x="405" y="192" key="EditFileWatcherDialog" timestamp="1615336826437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="405" y="192" key="EditFileWatcherDialog/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615336826437" />
+    <state x="579" y="228" key="NewPhpClassDialog" timestamp="1615338068604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="228" key="NewPhpClassDialog/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615338068604" />
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1615317315375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="337" key="NewPhpFileDialog/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615317315375" />
+    <state x="408" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615330520433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615330520433" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1615385382747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615385382747" />
+    <state x="361" y="72" key="scopes" timestamp="1615336825477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="scopes/-1920.7.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615336825477" />
+  </component>
+</project>

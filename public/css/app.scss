@@ -1,0 +1,83 @@
+@import "spinner";
+@import "profile";
+
+body {
+  background: #fafafa;
+}
+
+.page-404 {
+  height: 100%;
+
+  body, main {
+    height: inherit;
+  }
+}
+
+.layout {
+  &__form {
+    label {
+      display: block;
+    }
+
+    label.js-error,
+    label.error {
+      bottom: -25px;
+      color: #fff;
+      font-size: 12px;
+      margin: 0;
+      padding: 0 15px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  &__form-header {
+    background: #6562e5;
+  }
+
+  &__form-input {
+    background: #f4f4fd;
+    border: 1px solid #f4f4fd;
+    border-radius: 50px;
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 10px 15px;
+    transition: all .5s ease-in-out;
+    width: 100%;
+
+    &:focus, &:active, &:hover {
+      border-color: #f4f4fd;
+      outline: none;
+    }
+
+    &.error {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  &__form-group {
+    position: relative;
+    padding-right: 60px;
+  }
+
+  &__form-btn {
+    background: #3e2092;
+    border-radius: 100%;
+    color: #fff;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+
+    &:focus, &:active, &:hover {
+      border-color: #20134a;
+      background: #20134a;
+      box-shadow: none;
+      color: #fff;
+      outline: none;
+    }
+  }
+}

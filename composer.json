@@ -1,0 +1,10 @@
+{
+  "name": "CodeTest",
+  "license": "proprietary",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
