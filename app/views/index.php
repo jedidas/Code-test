@@ -27,6 +27,14 @@
                 <div class="layout__form-box col-12">
                     <form action="/api" class="layout__form js-form clearfix animate__animated animate__bounceInDown">
                         <div class="layout__form-group">
+                            <div class="layout__form-switch-box">
+                                <p>Local Api</p>
+                                <div class="layout__form-switch">
+                                    <label for="switch"></label>
+                                    <input type="checkbox" value="0" id="switch">
+                                    <span></span>
+                                </div>
+                            </div>
                             <input type="email" name="email" class="layout__form-input"
                                    placeholder="Search user from email" id="email">
                             <label class="js-error"></label>

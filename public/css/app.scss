@@ -81,4 +81,72 @@ body {
       outline: none;
     }
   }
+
+  &__form-switch-box {
+    float: left;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 40px;
+
+    p {
+      color: #fff;
+      font-size: 9px;
+      margin-bottom: 3px;
+    }
+  }
+
+  &__form-switch {
+    display: block;
+    position: relative;
+
+    label {
+      display: block;
+      height: 20px;
+      margin: 0;
+      position: relative;
+      z-index: 5;
+    }
+
+    input[type=checkbox], input[type=radio] {
+      box-sizing: border-box;
+      padding: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      visibility: hidden;
+
+      &:checked + span {
+        background: #240083;
+        &:after {
+          left: 50%;
+        }
+      }
+    }
+
+    span {
+      border-radius: 20px;
+      background: #7141fa;
+      display: block;
+      height: 20px;
+      position: absolute;
+      top: 0;
+      transition: all .3s ease-in-out;
+      width: 100%;
+      z-index: 1;
+
+      &:after {
+        border-radius: 100%;
+        background: #fff;
+        content: '';
+        display: block;
+        height: 20px;
+        left: 0;
+        position: relative;
+        transition: all .3s ease-in-out;
+        width: 20px;
+      }
+    }
+  }
+
 }

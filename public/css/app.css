@@ -71,7 +71,7 @@
 }
 
 .layout__profile-box {
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 0 4px -2px #000;
   background: #fff;
   margin: 20px auto;
@@ -299,6 +299,65 @@ body {
   box-shadow: none;
   color: #fff;
   outline: none;
+}
+.layout__form-switch-box {
+  float: left;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 40px;
+}
+.layout__form-switch-box p {
+  color: #fff;
+  font-size: 9px;
+  margin-bottom: 3px;
+}
+.layout__form-switch {
+  display: block;
+  position: relative;
+}
+.layout__form-switch label {
+  display: block;
+  height: 20px;
+  margin: 0;
+  position: relative;
+  z-index: 5;
+}
+.layout__form-switch input[type=checkbox], .layout__form-switch input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+.layout__form-switch input[type=checkbox]:checked + span, .layout__form-switch input[type=radio]:checked + span {
+  background: #240083;
+}
+.layout__form-switch input[type=checkbox]:checked + span:after, .layout__form-switch input[type=radio]:checked + span:after {
+  left: 50%;
+}
+.layout__form-switch span {
+  border-radius: 20px;
+  background: #7141fa;
+  display: block;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
+.layout__form-switch span:after {
+  border-radius: 100%;
+  background: #fff;
+  content: "";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */

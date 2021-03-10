@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/AppRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/AppRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615316730442</updated>
       <workItem from="1615316731744" duration="21484000" />
-      <workItem from="1615384641045" duration="21986000" />
+      <workItem from="1615384641045" duration="26487000" />
     </task>
     <servers />
   </component>

@@ -19,12 +19,24 @@ $(function () {
             var email = _form.find('[name="email"]').val();
             $('.js-spinner').addClass('d-block');
             $('.js-body').addClass('d-none');
+
+            var isChecked = $('#switch').prop('checked');
+            var url = _form.attr('action') + '/' + email;
+            if (isChecked) {
+                url = 'https://jsonplaceholder.typicode.com/users';
+            }
+
             $.ajax({
-                url: _form.attr('action') + '/' + email,
+                url: url,
                 type: 'GET',
                 dataType: 'json',
                 success: function (response) {
-                    render.init(form, response);
+                    if (isChecked) {
+                        var result = render.filter(email, response);
+                        render.init(form, result);
+                    } else {
+                        render.init(form, response);
+                    }
                 },
                 error: function (xhr, status) {
                     console.log('Error');
